@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "ts-node build.ts"
+    "build": "ts-node-esm build.ts"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",

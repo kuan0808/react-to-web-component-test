@@ -1,5 +1,5 @@
 import * as esbuild from "esbuild";
-const InlineCSSPlugin = require("esbuild-plugin-inline-css");
+import InlineCSSPlugin from "esbuild-plugin-inline-css";
 
 esbuild
   .build({
