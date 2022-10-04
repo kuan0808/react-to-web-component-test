@@ -1,0 +1,34 @@
+{
+  "name": "kgkit-web-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ts-node build.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kryptogo/kryptogokit": "^0.5.1",
+    "ethers": "^5.7.1",
+    "html-to-react": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "wagmi": "^0.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.1",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.4.12",
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.15.10",
+    "esbuild-envfile-plugin": "^1.0.3",
+    "esbuild-plugin-inline-css": "^0.0.1",
+    "esbuild-style-plugin": "^1.6.0",
+    "postcss": "^8.4.17",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
